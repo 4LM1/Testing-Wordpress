@@ -19,7 +19,7 @@ import PageObject.WebPage;
 
 import resources.BaseTest;
 
-public class WrongLoginValidations extends BaseTest{
+public class WrongLoginValidationTest extends BaseTest{
 	
 	LoginPage loginPage;
 	WebPage webPage;

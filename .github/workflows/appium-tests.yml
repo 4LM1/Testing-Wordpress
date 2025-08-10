@@ -30,5 +30,5 @@ jobs:
             ${{ runner.os }}-maven-
 
       - name: Build and run tests
-        working-directory: UITests
+        working-directory: UIAutomation
         run: mvn test

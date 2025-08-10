@@ -118,4 +118,5 @@ public class BaseTest {
 		driver.quit();
 		service.stop();
 	}
+}
 	

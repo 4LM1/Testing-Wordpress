@@ -45,5 +45,5 @@ jobs:
         sleep 5
 
     # 7️⃣ Spuštění Appium testů (přizpůsob si podle svého)
-    - name: Run Appium tests
-      run: ./gradlew connectedAndroidTest
+   - name: Start Appium server
+  run: npx appium --base-path /wd/hub &
